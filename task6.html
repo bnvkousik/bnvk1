@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            margin-top:60px;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width:400px;
+            margin-left:33%;
+        }
+        
+        .form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(1, 1, 1, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        .form h2 {
+            margin-bottom: 18px;
+        }
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+       
+        
+        .form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #5584b8;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .form button:hover {
+            opacity: 0.8;
+        }
+        h2{
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h2>Form</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message" rows="5"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
